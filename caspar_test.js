@@ -23,9 +23,11 @@ Scenario('Signing into the app only to realise you do not want to workout today'
   let moreMenu = '#com.casparhealth.android.patient:id/linear'
   
   I.runOnAndroid(() => {
-    //Start up image carousell
+    //Start up image carousel
     I.see('Your individual therapy plan. Always with you.');
 
+    //touchPerform method is simulating a swipe from the right
+    //side of the screen to the left.
     I.touchPerform([{
       action: 'press',
       options: {

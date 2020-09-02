@@ -9,7 +9,7 @@ exports.config = {
   output: './output',
   helpers: {
     Appium: {
-      app: '/Users/James.Brumpton/Downloads/com.casparhealth.android.patient_2020-08-17.apk',
+      app: '',
       platform: 'Android',
       device: 'emulator'
     }
